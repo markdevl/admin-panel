@@ -1,0 +1,435 @@
+.game-rate{
+    margin: auto;
+    padding-top: 2%;
+    margin-top: 1%;
+    width: 98%;
+}
+.game-rate-row{
+    margin-bottom: 1%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.game-rate-input{
+    width: 45%  ;
+    display: flex;
+    flex-direction: column
+}
+.game-rate-input label {
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 1%;
+    color: var(--dark);
+}
+.game-rate-input input {
+    padding: 1.5%;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 4px;
+}
+.game-rate form button {
+    border: none;
+    outline: none;
+    padding: 1%;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--blue);
+    margin-left: 45%;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.game-rate form button a {
+    color: white;
+}
+.bid-winning {
+    margin: auto;
+    margin-top: 2%;
+    width: 98%;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.bid-winning h4 {  
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400;
+}
+.bid-winning-data {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.bid-winning-row {
+    border-bottom: 1px solid rgb(163, 158, 158);
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1%;
+}
+.bid-winning-row  p{
+    text-transform: capitalize;
+    width: 45%;
+}
+.bid-winning-row span {
+    color: green;
+}
+.bid-winning-row h5 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.pana{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.pana-head{
+    padding: 1%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.pana-head h1{
+    font-size: 2rem;
+    position: relative;
+    width: 30%;
+    margin: auto;
+    color: black;
+
+}
+.pana-row{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.pana-row p{
+    border: 1px solid green;
+    width: 7%;
+    border-radius: 30px;
+    padding: 0.6%;
+    text-align: center;
+    font-weight: 600;
+}
+#pana-row-2 {
+    width: 33%;
+    /* border: 2px solid red; */
+    /* height: 6vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#pana-row-2 p{
+    width: 20%;
+    height: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#banner-img {
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 5vw;
+    height: 10vh;
+    overflow: hidden;
+}
+.user-data>td>img{
+    height: 100%;
+    width: 100%;
+}
+.user-data img{
+    border: 1px solid gray;
+    width: 25%;
+    height: 18vh;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.video {
+    width: 35%;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 8px ;
+    overflow: hidden;
+}
+.about {
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 2%;
+}
+.about h2 {
+    color: green;
+    text-transform: capitalize;
+    margin-bottom: 1%;
+}
+.about textarea {
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 1%;
+}
+
+.req {
+    /* border: 2px solid red; */
+    margin-top: 1%;
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.req small {
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 2%;
+}
+.req p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.edit-btn {
+    /* border: 2px solid red; */
+    width: 8%;
+    height: 6vh;
+    margin-top: 2%;
+}
+.edit-btn button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.left-digit-head {
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.left-digit-head h1{
+    font-size: 2rem;
+    position: relative;
+    width: 23%;
+    margin: auto;
+    color: black;
+}
+.left-digit table{
+    width: 98%;
+    margin: auto;    
+    text-align: center;
+}
+.left-digit table th{
+    border: 1px solid gray;
+    padding: 0.5%;
+    background-color: white;
+}
+.left-digit table td{
+    border: 1px solid gray;
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: white;
+}
+.left-digit table td p{
+    background-color: green;
+    padding: 0.5%;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+#digit{
+    width: 16.3vw;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#point{
+    background-color: white;
+    color: green;
+
+}
+.right-digit-head {
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.right-digit-head h1{
+    font-size: 2rem;
+    position: relative;
+    width: 23%;
+    margin: auto;
+    color: black;
+}
+.right-digit table{
+    width: 98%;
+    margin: auto;    
+    text-align: center;
+}
+.right-digit table th{
+    border: 1px solid gray;
+    padding: 0.5%;
+    background-color: white;
+}
+.right-digit table td{
+    border: 1px solid gray;
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: white;
+}
+.right-digit table td p{
+    background-color: green;
+    padding: 0.5%;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.jodi-head {
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.jodi-head h1{
+    font-size: 2rem;
+    position: relative;
+    width: 23%;
+    margin: auto;
+    color: black;
+}
+
+
+.jodi table {
+    width: 98%;
+    margin: auto;    
+    text-align: center;
+
+}
+.jodi table th {
+    border: 1px solid gray;
+    padding: 0.5%;
+    background-color: white;
+}
+
+.jodi table td {
+    border: 1px solid gray;
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: white;
+}
+.jodi table td p{
+    background-color: green;
+    padding: 0.5%;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.cards {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.card-1 {
+    border: 2px solid green;
+    width: 19.5%;
+    padding: 1%;
+    border-radius: 8px;
+    margin-bottom: 0.5%;
+    background: var(--green);
+    /* background: linear-gradient(90deg, rgba(101,205,70,1) 68%, rgba(182,212,31,0.8421568456484156) 86%);  */
+}
+.card-1 p{
+    padding: 5%;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-bottom: 2px solid green;
+    color: white;
+}
+#ank {
+    border-bottom: none;
+}
+.form-fund {
+    /* border: 2px solid black; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.form-fund select {
+    width: 20vw;
+    margin-top: 2%;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2%;
+
+}
+
+.form-fund input {
+    width: 15vw;
+    margin-top: 2%;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2%;
+
+}
+
+.form-fund label {
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+.form-fund label::selection {
+    background-color: green;
+    color: white;
+}
+.form-fund p{
+    font-size: 10px;
+}
+.fund-btn a{
+    color: white;
+}
+.fund-btn{
+    background-color: var(--blue);
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 2px;
+    font-size: 20px;
+}

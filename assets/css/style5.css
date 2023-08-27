@@ -1,0 +1,78 @@
+
+.user-data .img {
+    border: 1px solid gray;
+    width: 25%;
+    height: 18vh;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+
+}
+.about {
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 2%;
+}
+.about h2 {
+    color: green;
+    text-transform: capitalize;
+    margin-bottom: 1%;
+}
+.about textarea {
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 1%;
+}
+
+.req {
+    /* border: 2px solid red; */
+    margin-top: 1%;
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.req small {
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 2%;
+}
+.req p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.edit-btn {
+    /* border: 2px solid red; */
+    width: 8%;
+    height: 6vh;
+    margin-top: 2%;
+}
+.edit-btn button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+.video {
+    width: 35%;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 8px ;
+    overflow: hidden;
+}

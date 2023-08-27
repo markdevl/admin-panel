@@ -1,0 +1,290 @@
+
+:root {
+	--poppins: 'Poppins', sans-serif;
+	--lato: 'Lato', sans-serif;
+
+	--grey: #F1F0F6;
+	--dark-grey: #8D8D8D;
+	--light: #fff;
+	--dark: #000;
+	--green: #81D43A;
+	--light-green: #E3FFCB;
+	--blue: #1775F1;
+	--light-blue: #D0E4FF;
+	--dark-blue: #0C5FCD;
+	--red: #FC3B56;
+	--poppins: 'Poppins', sans-serif;
+	--lato: 'Lato', sans-serif;
+	--blue: #3C91E6;
+	--light-blue: #CFE8FF;
+	--yellow: #FFCE26;
+	--light-yellow: #FFF2C6;
+	--orange: #FD7238;
+	--light-orange: #FFE0D3;
+}
+
+/* Winning prediction */
+
+.form-win {
+    /* border: 2px solid black; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10px;
+}
+
+.form-win select {
+    width: 10vw;
+    margin-top: 2%;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2%;
+
+}
+
+.form-win input {
+    width: 10vw;
+    margin-top: 2%;
+    border: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2%;
+
+}
+
+.form-win label {
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+.form-win label::selection {
+    background-color: green;
+    color: white;
+}
+.form-win-btn{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-left: 10px;
+}
+
+.form-win-btn button{
+    width: 50%;
+    height: 95%;
+    padding: 1%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.get {
+    width: 60%;
+    margin-left: 20px;
+    background-color: var(--green);
+}
+.clear{
+    width: 50%;
+    margin-left: 20px;
+    background-color: red;
+}
+
+
+/* Declare Result */
+
+.form-dec-btn{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-left: 10px;
+}
+
+.form-dec-btn button{
+    width: 50%;
+    height: 95%;
+    padding: 1%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.go {
+    width: 50%;
+    margin-left: 20px;
+    background-color: var(--blue);
+}
+
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.game-cont {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.game-cont h1 {
+    color: transparent;
+    font-size: 2.5rem;
+    cursor: pointer;
+    -webkit-text-stroke: 2px green;
+    background: transparent;
+}
+
+.game-cont hr {
+    width: 5%;
+    transform: rotate(90deg);
+}
+.home-icon {
+    height: 80%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.home-icon i{
+    font-size: 1.8rem;
+    color: gray;
+}
+.game-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.game-box i{
+    font-size: 1.8rem;
+    color:  green;
+}
+.game-box h2 {
+    font-size: 1.2rem;
+    color:  green;
+}
+.game-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.game-list i{
+    font-size: 1.8rem;
+    color: gray;
+}
+.game-list h2 {
+    font-size: 1.2rem;
+    color: gray;
+}
+.game-cont small {
+    background-color: green;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Firefox
+input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+
+.about {
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 2%;
+}
+.about h2 {
+    color: green;
+    text-transform: capitalize;
+    margin-bottom: 1%;
+}
+.about textarea {
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 1%;
+}
+
+.req {
+    /* border: 2px solid red; */
+    margin-top: 1%;
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.req small {
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 2%;
+}
+.req p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.edit-btn {
+    /* border: 2px solid red; */
+    width: 8%;
+    height: 6vh;
+    margin-top: 2%;
+}
+.edit-btn button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
